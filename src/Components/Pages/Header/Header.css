@@ -1,0 +1,61 @@
+.header_container {
+    width: 100%;
+    background-color: #f8f9fa; /* Masalan, ochiq kulrang fon */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header_row {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header_section h1 {
+    font-size: 2.5rem; /* Sizga mos o'lchamni tanlang */
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .header_section p {
+    margin-top: 1rem; /* Matn va sarlavha orasida bo'shliq */
+    font-size: 1rem; /* Sizga mos o'lchamni tanlang */
+    line-height: 1.5;
+  }
+  
+  .search_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Yuqorida bo'shliq */
+  }
+  
+  .soff_input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    font-size: 1rem;
+    width: 300px; /* Sizga mos kenglik */
+  }
+  
+  .soff_btn {
+    border-radius: 0 50px 50px 0;
+    background-color: #00a44f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s linear, box-shadow 0.3s linear;
+    box-shadow: 0 0 5px 1px rgba(64, 60, 67, 0.161);
+  }
+  
+  .soff_btn:hover {
+    background-color: #008a3e; /* Hover holati uchun rang */
+  }
+  
